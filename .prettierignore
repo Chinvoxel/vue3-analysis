@@ -1,0 +1,12 @@
+# ignore all files in the node_modules directory
+node_modules/*
+
+# ignore all files with a .git extension
+*.git
+
+# ignore all markdown files in the docs directory
+docs/**/*.md
+
+# ignore all files in the dist and build directories
+dist/*
+build/*
